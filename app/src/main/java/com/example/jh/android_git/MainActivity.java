@@ -23,6 +23,8 @@ import android.widget.Button;
  * 9.因为现在这个版本是将2.0的代码合并至hui2.0中但是2.0并没有hui2.0的改变。可以检查下2.0有没有新增的布局
  * 10.这时切换到2.0没有那个新增布局需要merge到2.0，然后在将代码统一上传至远程。
  * 11.至此整个过程完成。
+ * 12.发现切回jin2.0之后没有那个新增布局，但是远程2.0版本和hui2.0都有了这个布局，
+ * 13.如何操作呢？首先切换到2.0从网络端pull下来，cheakout，在merge就将新增布局整合到jin2.0分支。
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
