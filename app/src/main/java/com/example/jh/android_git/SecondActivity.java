@@ -16,5 +16,6 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         // 创建jin2.0版本，并上传
         setContentView(R.layout.activity_second);
+        // 创建jin2.00版本，并上传
     }
 }
