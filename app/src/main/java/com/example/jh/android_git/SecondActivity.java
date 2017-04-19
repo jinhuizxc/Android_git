@@ -19,9 +19,6 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         // 创建jin2.0版本，并上传
         setContentView(R.layout.activity_second);
-        // 创建jin2.00版本，并上传
-        // 创建jin2.0版本，并上传
-        setContentView(R.layout.activity_second);
         // 创建2.0 下创建jin2.00版本，并没有jin2.00分支这样操作不行。
         //目前git是2.0开始创建jin2.0 分支
         //现在jin2.0 分支已经上传，开始写个跳转，待会与hui2.0合并
