@@ -14,5 +14,7 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // 创建jin2.0版本，并上传
+        setContentView(R.layout.activity_second);
     }
 }
