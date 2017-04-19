@@ -10,7 +10,6 @@ import android.support.v7.app.AppCompatActivity;
  */
 
 public class ThirdActivity extends AppCompatActivity {
-public class ThirdActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

@@ -19,10 +19,10 @@ import android.widget.Button;
  * 5.合并代码，上传
  * 6.首先要选中2.0 然后在merge 会将jin2.0代码合并到2.0上面
  * 7. 接着将2.0代码上传，然后在hui2.0这里pull下来
- * 6.首先要选中2.0 然后在merge 会将jin2.0代码合并到2.0上面
- * 7. 接着将2.0代码上传，然后在hui2.0这里pull下来
- * 6.首先要选中2.0 然后在merge 会将jin2.0代码合并到2.0上面
- * 7. 接着将2.0代码上传，然后在hui2.0这里pull下来
+ * 8. 切换到自己的分支再merge（合并就可以啦）
+ * 9.因为现在这个版本是将2.0的代码合并至hui2.0中但是2.0并没有hui2.0的改变。可以检查下2.0有没有新增的布局
+ * 10.这时切换到2.0没有那个新增布局需要merge到2.0，然后在将代码统一上传至远程。
+ * 11.至此整个过程完成。
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
